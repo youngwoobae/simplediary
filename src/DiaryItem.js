@@ -33,7 +33,7 @@ const DiaryItem = ({
     }
   }
 
-  const handleQuitEdit = () => {
+  const handleQuitEdit = () => {//code by 0411
     setIsEdit(false)
     setLocalContent(content)
   }
